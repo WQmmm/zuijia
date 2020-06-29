@@ -1,0 +1,16 @@
+[INFO ][20200628 19:07:25,286][AbstractApplicationContext:582] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@379619aa: startup date [Sun Jun 28 19:07:25 CST 2020]; root of context hierarchy
+[INFO ][20200628 19:07:25,507][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [application.xml]
+[INFO ][20200628 19:07:27,209][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/indexController/register]}" onto public java.lang.String controller.indexController.register()
+[INFO ][20200628 19:07:27,210][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/indexController/toLogin]}" onto public java.lang.String controller.indexController.toLogin()
+[INFO ][20200628 19:07:27,211][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/indexController/login]}" onto public java.lang.String controller.indexController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20200628 19:07:27,211][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/indexController/toRegister]}" onto public java.lang.String controller.indexController.toRegister()
+[INFO ][20200628 19:07:27,500][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@379619aa: startup date [Sun Jun 28 19:07:25 CST 2020]; root of context hierarchy
+[INFO ][20200628 19:07:27,559][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@379619aa: startup date [Sun Jun 28 19:07:25 CST 2020]; root of context hierarchy
+[INFO ][20200628 19:25:14,796][AbstractApplicationContext:582] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@379619aa: startup date [Sun Jun 28 19:25:14 CST 2020]; root of context hierarchy
+[INFO ][20200628 19:25:14,941][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [mybatis/spring-mybatis.xml]
+[WARN ][20200628 19:25:15,568][ClassPathMapperScanner:167] No MyBatis mapper was found in '[com.chair.mapper]' package. Please check your configuration.
+[INFO ][20200628 19:25:16,901][DruidDataSource:721] {dataSource-1} inited
+[INFO ][20200628 19:35:57,799][AbstractApplicationContext:582] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@379619aa: startup date [Sun Jun 28 19:35:57 CST 2020]; root of context hierarchy
+[INFO ][20200628 19:35:57,906][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [mybatis/spring-mybatis.xml]
+[WARN ][20200628 19:35:58,394][ClassPathMapperScanner:167] No MyBatis mapper was found in '[com.chair.mapper]' package. Please check your configuration.
+[INFO ][20200628 19:35:59,604][DruidDataSource:721] {dataSource-1} inited

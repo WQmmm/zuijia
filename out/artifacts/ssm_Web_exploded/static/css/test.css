@@ -1,0 +1,57 @@
+
+ ul{
+    list-style-type: none;
+}
+
+.erji_u1 dt{
+    margin-left: 0px;
+    font-size: 15px;
+    color: #777777;
+    margin-top:15px;
+}
+
+.nav li{
+    font-size: 20px;
+    color: #777777;
+    margin-top: 5px;
+    margin-left: 28%;
+}
+.nav li a{
+    
+}
+.nav a{
+    text-decoration-line: none;
+    color: #777777;
+}
+
+.nav p{
+    display: inline;
+    font-size: 30px;
+    color: #777777;
+}
+
+.nav .p1{
+    margin-left: 25%;
+}
+
+.nav .p2{
+    margin: 0px 100px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: #390;
+    color: #FFF;
+}
+ul li:hover .erji_u1{
+    display: block;
+}
+.erji_u1{
+    display: none;
+}
+
+.nav hr{
+    width: 50%;
+}

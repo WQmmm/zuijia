@@ -110,8 +110,7 @@
             <div class="price"><a class="del" href="#2">删除</a></div>
         </div>
         <div class="th">
-            <div class="pro clearfix"><label class="fl"><input type="checkbox"/><span></span></label><a class="fl"
-                                                                                                        href="#">
+            <div class="pro clearfix"><label class="fl"><input type="checkbox"/><span></span></label><a class="fl" href="#">
                 <dl class="clearfix">
                     <dt class="fl"><img src="/static/img/temp/cart03.jpg"></dt>
                     <dd class="fl"><p>创意现代简约干花花瓶摆件</p>
