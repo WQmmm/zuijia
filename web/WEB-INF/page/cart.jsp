@@ -128,7 +128,7 @@
         <div class="tr clearfix"><label class="fl"><input class="checkAll" type="checkbox"/><span></span></label>
             <p class="fl"><a href="#">全选</a><a href="#" class="del">删除</a></p>
             <p class="fr"><span>共<small id="sl">0</small>件商品</span><span>合计:&nbsp;<small id="all">￥0.00</small></span><a
-                    href="order.html" class="count">结算</a></p></div>
+                    href="/indexController/toOrder" class="count">结算</a></p></div>
     </div>
 </div>
 <div class="mask"></div>

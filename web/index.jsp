@@ -25,7 +25,7 @@
             <h1 class="fl"><a href="index.html"><img src="/static/img/logo.png" /></a></h1>
             <div class="fr clearfix" id="top1">
                 <c:if test="${username==null}">
-                <p class="fl"><a href="/indexController/toLogin" id="login">登录</a><a href="/indexController/toRegister" id="reg">注册</a></p>
+                    <p class="fl"><a href="/indexController/toLogin" id="login">登录</a><a href="/indexController/toRegister" id="reg">注册</a></p>
                 </c:if>
                 <c:if test="${username!=null}">
                     <p class="fl" >欢迎：${username} &nbsp; </p><a class="fl" href="/indexController/logout" style="margin: 20px 20px 0 20px">退出登录</a>
@@ -33,36 +33,36 @@
                 <form action="#" method="get" class="fl"><input type="text" placeholder="热门搜索：干花花瓶" /><input
                         type="button" /></form>
                 <div class="btn fl clearfix"><a href="/indexController/toMygxin"><img src="/static/img/grzx.png" /></a><a href="#"
-                                                                                                    class="er1"><img src="/static/img/ewm.png" /></a><a href="/indexController/toCart"><img src="/static/img/gwc.png" /></a>
+                                                                                                                          class="er1"><img src="/static/img/ewm.png" /></a><a href="/indexController/toCart"><img src="/static/img/gwc.png" /></a>
                     <p><a href="#"><img src="/static/img/smewm.png" /></a></p>
                 </div>
             </div>
         </div>
         <ul class="clearfix" id="bott">
-            <li><a href="index.html">首页</a></li>
+            <li><a href="/index.jsp">首页</a></li>
             <li><a href="#">所有商品</a>
                 <div class="sList">
-                    <div class="wrapper  clearfix"><a href="paint.html">
+                    <div class="wrapper  clearfix"><a href="/indexController/toPaint">
                         <dl>
                             <dt><img src="/static/img/nav1.jpg" /></dt>
                             <dd>浓情欧式</dd>
                         </dl>
-                    </a><a href="paint.html">
+                    </a><a href="/indexController/toPaint">
                         <dl>
                             <dt><img src="/static/img/nav2.jpg" /></dt>
                             <dd>浪漫美式</dd>
                         </dl>
-                    </a><a href="paint.html">
+                    </a><a href="/indexController/toPaint">
                         <dl>
                             <dt><img src="/static/img/nav3.jpg" /></dt>
                             <dd>雅致中式</dd>
                         </dl>
-                    </a><a href="paint.html">
+                    </a><a href="/indexController/toPaint">
                         <dl>
                             <dt><img src="/static/img/nav6.jpg" /></dt>
                             <dd>简约现代</dd>
                         </dl>
-                    </a><a href="paint.html">
+                    </a><a href="/indexController/toPaint">
                         <dl>
                             <dt><img src="/static/img/nav7.jpg" /></dt>
                             <dd>创意装饰</dd>
@@ -70,19 +70,21 @@
                     </a></div>
                 </div>
             </li>
-            <li><a href="flowerDer.html">装饰摆件</a>
+            <li><a href="/indexController/toFlowerDer">装饰摆件</a>
                 <div class="sList2">
-                    <div class="clearfix"><a href="proList.html">干花花艺</a><a href="vase_proList.html">花瓶花器</a></div>
+                    <div class="clearfix"><a href="/indexController/toProList">干花花艺</a><a
+                            href="/indexController/toVase_proList">花瓶花器</a></div>
                 </div>
             </li>
-            <li><a href="decoration.html">布艺软饰</a>
+            <li><a href="/indexController/toDecoration">布艺软饰</a>
                 <div class="sList2">
-                    <div class="clearfix"><a href="zbproList.html">桌布罩件</a><a href="bzproList.html">抱枕靠垫</a></div>
+                    <div class="clearfix"><a href="/indexController/toZbproList">桌布罩件</a><a
+                            href="/indexController/toBzproList">抱枕靠垫</a></div>
                 </div>
             </li>
-            <li><a href="paint.html">墙式壁挂</a></li>
-            <li><a href="perfume.html">蜡艺香薰</a></li>
-            <li><a href="idea.html">创意家居</a></li>
+            <li><a href="/indexController/toProList">墙式壁挂</a></li>
+            <li><a href="/indexController/toPerfume">蜡艺香薰</a></li>
+            <li><a href="/indexController/toIdea">创意家居</a></li>
         </ul>
     </div>
 </div>
@@ -108,14 +110,14 @@
 <div class="news">
     <div class="wrapper">
         <h2><img src="/static/img/ih1.jpg" /></h2>
-        <div class="top clearfix"><a href="proDetail.html"><img src="/static/img/n1.jpg" />
+        <div class="top clearfix"><a href="/indexController/toProDetail"><img src="/static/img/n1.jpg" />
             <p></p>
-        </a><a href="proDetail.html"><img src="/static/img/n2.jpg" />
+        </a><a href="/indexController/toProDetail"><img src="/static/img/n2.jpg" />
             <p></p>
-        </a><a href="proDetail.html"><img src="/static/img/n3.jpg" />
+        </a><a href="/indexController/toProDetail"><img src="/static/img/n3.jpg" />
             <p></p>
         </a></div>
-        <div class="bott clearfix"><a href="proDetail.html"><img src="/static/img/n4.jpg" />
+        <div class="bott clearfix"><a href="/indexController/toProDetail"><img src="/static/img/n4.jpg" />
             <p></p>
         </a><a href="/indexController/toProDetail"><img src="/static/img/n5.jpg" />
             <p></p>
@@ -247,7 +249,7 @@
     </div>
 </div>
 <!--返回顶部-->
-<div class="gotop"><a href="cart.html">
+<div class="gotop"><a href="/indexController/toCart">
     <dl>
         <dt><img src="/static/img/gt1.png" /></dt>
         <dd>去购<br />物车</dd>
@@ -257,7 +259,7 @@
         <dt><img src="/static/img/gt2.png" /></dt>
         <dd>联系<br />客服</dd>
     </dl>
-</a><a href="mygxin.html">
+</a><a href="/indexController/toMygxin">
     <dl>
         <dt><img src="/static/img/gt3.png" /></dt>
         <dd>个人<br />中心</dd>

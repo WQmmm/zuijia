@@ -170,4 +170,28 @@ public class indexController {
     public String toProList(){
         return "proList";
     }
+
+    //跳转到修改密码页面
+    @RequestMapping("toRemima")
+    public String toRemima(){
+        return "remima";
+    }
+
+    //跳转到花瓶花器页面
+    @RequestMapping("toVase_proList")
+    public String toVase_proList(){
+        return "vase_proList";
+    }
+
+    //跳转到物流管理页面
+    @RequestMapping("toWuliu")
+    public String toWuliu(){
+        return "wuliu";
+    }
+
+    //跳转到桌布主题页面
+    @RequestMapping("toZbproList")
+    public String toZbproList(){
+        return "zbproList";
+    }
 }
