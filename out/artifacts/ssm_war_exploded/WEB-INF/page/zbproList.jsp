@@ -19,8 +19,9 @@
 <div class="banner"><a href="#"><img src="/static/img/temp/zbBanner.jpg"/></a></div>
 <!-----------------address------------------------------->
 <div class="address">
-    <div class="wrapper clearfix"><a href="index.html">首页</a><span>/</span><a
-            href="decoration.html">布艺软饰</a><span>/</span><a href="zbproList.html" class="on">桌布</a></div>
+    <div class="wrapper clearfix"><a href="/index.jsp">首页</a><span>/</span><a
+            href="/indexController/toDecoration">布艺软饰</a><span>/</span>
+        <a href="/indexController/toZbproList" class="on">桌布</a></div>
 </div><!-------------------current---------------------->
 <div class="current">
     <div class="wrapper clearfix"><h3 class="fl">桌布</h3>
@@ -36,112 +37,112 @@
     </div>
 </div><!----------------proList------------------------->
 <ul class="proList wrapper clearfix">
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb08.jpg"></dt>
             <dd>【最家】清新乡村田园桌布</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb07.jpg"></dt>
             <dd>【最家】法式乡村复古桌布</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb06.jpg"></dt>
             <dd>【最家】清新简约防水桌布</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb05.jpg"></dt>
             <dd>【最家】北欧圣诞节防水桌布红色</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb04.jpg"></dt>
             <dd>【最家】田园桌布防水防油布</dd>
             <dd>￥47.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb03.jpg"></dt>
             <dd>【最家】欧式家用小方桌台布</dd>
             <dd>￥20.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb02.jpg"></dt>
             <dd>【最家】地中海格子桌布</dd>
             <dd>￥37.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb01.jpg"></dt>
             <dd>【最家】欧式田园棉麻桌布</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb08.jpg"></dt>
             <dd>【最家】清新乡村田园桌布</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb07.jpg"></dt>
             <dd>【最家】法式乡村复古桌布</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb06.jpg"></dt>
             <dd>【最家】清新简约防水桌布</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb05.jpg"></dt>
             <dd>【最家】北欧圣诞节防水桌布红色</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb04.jpg"></dt>
             <dd>【最家】田园桌布防水防油布</dd>
             <dd>￥47.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb03.jpg"></dt>
             <dd>【最家】欧式家用小方桌台布</dd>
             <dd>￥20.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb02.jpg"></dt>
             <dd>【最家】地中海格子桌布</dd>
             <dd>￥37.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/zb01.jpg"></dt>
             <dd>【最家】欧式田园棉麻桌布</dd>
@@ -178,7 +179,7 @@
                 加入购物车</p></a></div>
         </div>
     </div>
-    <a class="more" href="proDetail.html">查看更多细节</a></div><!--返回顶部-->
+    <a class="more" href="/indexController/toProDetail">查看更多细节</a></div><!--返回顶部-->
 <jsp:include page="footer.jsp"></jsp:include>
 <script src="/static/js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="/static/js/public.js" type="text/javascript" charset="utf-8"></script>

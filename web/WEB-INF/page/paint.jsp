@@ -19,42 +19,43 @@
 <div class="banner"><a href="#"><img src="/static/img/temp/banner2.jpg"/></a></div>
 <!-----------------address------------------------------->
 <div class="address">
-    <div class="wrapper clearfix"><a href="index.html">首页</a><span>/</span><a href="paint.html" class="on">墙式壁挂</a>
+    <div class="wrapper clearfix"><a href="/index.jsp">首页</a><span>/</span><a
+            href="/indexController/toPaint" class="on">墙式壁挂</a>
     </div>
 </div><!-----------------paintCon------------------------------->
 <div class="paintCon">
     <section class="wrapper"><h3><img src="/static/img/temp/tit01.jpg"></h3><img src="/static/img/temp/paint01.jpg"/>
-        <div class="paintList"><a href="proDetail.html">
+        <div class="paintList"><a href="/indexController/toProDetail">
             <dl>
                 <dt><img src="/static/img/temp/sec101.jpg"></dt>
                 <dd>新中式客厅山水装饰画墙壁挂画</dd>
                 <dd>299.90</dd>
             </dl>
-        </a><a href="proDetail.html">
+        </a><a href="/indexController/toProDetail">
             <dl>
                 <dt><img src="/static/img/temp/sec102.jpg"></dt>
                 <dd>新中式客厅山水装饰画墙壁挂画</dd>
                 <dd>299.90</dd>
             </dl>
-        </a><a href="proDetail.html">
+        </a><a href="/indexController/toProDetail">
             <dl>
                 <dt><img src="/static/img/temp/sec103.jpg"></dt>
                 <dd>新中式客厅山水装饰画墙壁挂画</dd>
                 <dd>299.90</dd>
             </dl>
-        </a><a href="proDetail.html">
+        </a><a href="/indexController/toProDetail">
             <dl>
                 <dt><img src="/static/img/temp/sec104.jpg"></dt>
                 <dd>新中式客厅山水装饰画墙壁挂画</dd>
                 <dd>299.90</dd>
             </dl>
-        </a><a href="proDetail.html">
+        </a><a href="/indexController/toProDetail">
             <dl>
                 <dt><img src="/static/img/temp/sec105.jpg"></dt>
                 <dd>新中式客厅山水装饰画墙壁挂画</dd>
                 <dd>299.90</dd>
             </dl>
-        </a><a href="proDetail.html">
+        </a><a href="/indexController/toProDetail">
             <dl>
                 <dt><img src="/static/img/temp/sec106.jpg"></dt>
                 <dd>新中式客厅山水装饰画墙壁挂画</dd>
@@ -63,37 +64,37 @@
         </a></div>
     </section>
     <section class="wrapper"><h3><img src="/static/img/temp/tit02.jpg"></h3><img src="/static/img/temp/paint02.jpg"/>
-        <div class="paintList"><a href="proDetail.html">
+        <div class="paintList"><a href="/indexController/toProDetail">
             <dl>
                 <dt><img src="/static/img/temp/sec201.jpg"></dt>
                 <dd>新中式客厅山水装饰画墙壁挂画</dd>
                 <dd>299.90</dd>
             </dl>
-        </a><a href="proDetail.html">
+        </a><a href="/indexController/toProDetail">
             <dl>
                 <dt><img src="/static/img/temp/sec202.jpg"></dt>
                 <dd>新中式客厅山水装饰画墙壁挂画</dd>
                 <dd>299.90</dd>
             </dl>
-        </a><a href="proDetail.html">
+        </a><a href="/indexController/toProDetail">
             <dl>
                 <dt><img src="/static/img/temp/sec203.jpg"></dt>
                 <dd>新中式客厅山水装饰画墙壁挂画</dd>
                 <dd>299.90</dd>
             </dl>
-        </a><a href="proDetail.html">
+        </a><a href="/indexController/toProDetail">
             <dl>
                 <dt><img src="/static/img/temp/sec204.jpg"></dt>
                 <dd>新中式客厅山水装饰画墙壁挂画</dd>
                 <dd>299.90</dd>
             </dl>
-        </a><a href="proDetail.html">
+        </a><a href="/indexController/toProDetail">
             <dl>
                 <dt><img src="/static/img/temp/sec205.jpg"></dt>
                 <dd>新中式客厅山水装饰画墙壁挂画</dd>
                 <dd>299.90</dd>
             </dl>
-        </a><a href="proDetail.html">
+        </a><a href="/indexController/toProDetail">
             <dl>
                 <dt><img src="/static/img/temp/sec206.jpg"></dt>
                 <dd>新中式客厅山水装饰画墙壁挂画</dd>
@@ -102,26 +103,26 @@
         </a></div>
     </section>
     <section class="wrapper"><h3><img src="/static/img/temp/tit03.jpg"></h3>
-        <div class="paintList third"><p><a href="proDetail.html"><img src="/static/img/temp/sec301.jpg"/></a></p>
-            <div class="sec"><a href="proDetail.html">
+        <div class="paintList third"><p><a href="/indexController/toProDetail"><img src="/static/img/temp/sec301.jpg"/></a></p>
+            <div class="sec"><a href="/indexController/toProDetail">
                 <dl>
                     <dt><img src="/static/img/temp/sec302.jpg"></dt>
                     <dd>新中式客厅山水装饰画墙壁挂画</dd>
                     <dd>299.90</dd>
                 </dl>
-            </a><a href="proDetail.html">
+            </a><a href="/indexController/toProDetail">
                 <dl>
                     <dt><img src="/static/img/temp/sec303.jpg"></dt>
                     <dd>新中式客厅山水装饰画墙壁挂画</dd>
                     <dd>299.90</dd>
                 </dl>
-            </a><a href="proDetail.html">
+            </a><a href="/indexController/toProDetail">
                 <dl>
                     <dt><img src="/static/img/temp/sec304.jpg"></dt>
                     <dd>新中式客厅山水装饰画墙壁挂画</dd>
                     <dd>299.90</dd>
                 </dl>
-            </a><a href="proDetail.html">
+            </a><a href="/indexController/toProDetail">
                 <dl>
                     <dt><img src="/static/img/temp/sec305.jpg"></dt>
                     <dd>新中式客厅山水装饰画墙壁挂画</dd>
@@ -131,21 +132,21 @@
         </div>
     </section>
     <section class="wrapper"><h3><img src="/static/img/temp/tit03.jpg"></h3>
-        <div class="paintList last"><p><a href="proDetail.html"><img src="/static/img/temp/sec401.jpg"/></a><a
-                href="proDetail.html"><img src="/static/img/temp/sec402.jpg"/></a></p>
-            <div class="sec"><a href="proDetail.html">
+        <div class="paintList last"><p><a href="/indexController/toProDetail"><img src="/static/img/temp/sec401.jpg"/></a><a
+                href="/indexController/toProDetail"><img src="/static/img/temp/sec402.jpg"/></a></p>
+            <div class="sec"><a href="/indexController/toProDetail">
                 <dl>
                     <dt><img src="/static/img/temp/sec403.jpg"></dt>
                     <dd>新中式客厅山水装饰画墙壁挂画</dd>
                     <dd>299.90</dd>
                 </dl>
-            </a><a href="proDetail.html">
+            </a><a href="/indexController/toProDetail">
                 <dl>
                     <dt><img src="/static/img/temp/sec404.jpg"></dt>
                     <dd>新中式客厅山水装饰画墙壁挂画</dd>
                     <dd>299.90</dd>
                 </dl>
-            </a><a href="proDetail.html">
+            </a><a href="/indexController/toProDetail">
                 <dl>
                     <dt><img src="/static/img/temp/sec405.jpg"></dt>
                     <dd>新中式客厅山水装饰画墙壁挂画</dd>

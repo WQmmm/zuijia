@@ -18,7 +18,8 @@
 <!------------------------------idea------------------------------>
 <div class="address mt">
     <div class="wrapper clearfix"><a href="#" class="fl">首页</a><span>/</span><a
-            href="mygxin.html">个人中心</a><span>/</span><a href="myorderq.html" class="on">我的订单</a></div>
+            href="/indexController/toMygxin">个人中心</a><span>/</span><a
+            href="/indexController/toMyorderqmyorderq" class="on">我的订单</a></div>
 </div><!------------------------------Bott------------------------------>
 <div class="Bott">
     <div class="wrapper clearfix">
@@ -27,19 +28,19 @@
                 <p class="clearfix"><span class="fl">[羊羊羊]</span><span class="fr">[退出登录]</span></p></h3>
             <div><h4>我的交易</h4>
                 <ul>
-                    <li><a href="cart.html">我的购物车</a></li>
-                    <li><a href="myorderq.html">我的订单</a></li>
-                    <li><a href="myprod.html">评价晒单</a></li>
+                    <li><a href="/indexController/toCart">我的购物车</a></li>
+                    <li><a href="/indexController/toMyorderq">我的订单</a></li>
+                    <li><a href="/indexController/toMyprod">评价晒单</a></li>
                 </ul>
                 <h4>个人中心</h4>
                 <ul>
-                    <li><a href="mygxin.html">我的中心</a></li>
-                    <li><a href="address.html">地址管理</a></li>
+                    <li><a href="/indexController/toMygxin">我的中心</a></li>
+                    <li><a href="/indexController/toAddress">地址管理</a></li>
                 </ul>
                 <h4>账户管理</h4>
                 <ul>
-                    <li class="on"><a href="mygrxx.html">个人信息</a></li>
-                    <li><a href="remima.html">修改密码</a></li>
+                    <li class="on"><a href="/indexController/toMygrxxy">个人信息</a></li>
+                    <li><a href="/indexController/toRemima">修改密码</a></li>
                 </ul>
             </div>
         </div>
@@ -69,11 +70,13 @@
                     <p class="fr">订单金额：<span>99.00</span>元</p></div>
                 <div class="shohou clearfix"><a href="#" class="fl"><img src="/static/img/g1.jpg"/></a>
                     <p class="fl"><a href="#">家用创意菜盘子圆盘 釉下彩复古</a><a href="#">¥99.00×1</a></p>
-                    <p class="fr"><a href="myprod.html">待评价</a><a href="orderxq.html">订单详情</a></p></div>
+                    <p class="fr"><a href="/indexController/toMyprod">待评价
+                    </a><a href="/indexController/toOrderxq">
+                        订单详情</a></p></div>
             </div>
             <div class="dkuang clearfix deng"><p class="one fl">待收货</p>
                 <div class="clearfix">
-                    <div class="fl vewwl"><a href="wuliu.html" class="ckwl">查看物流</a>
+                    <div class="fl vewwl"><a href="/indexController/toWuliu" class="ckwl">查看物流</a>
                         <div class="wuliu"><h4>圆通速递：858888888888888</h4>
                             <ul>
                                 <li><p>妥投投递并签收，已签收。签收人：本人签收</p>
@@ -82,7 +85,7 @@
                                     <p>2016-12-03 08:50:00</p></li>
                                 <li><p>到达广东省邮政速递物流有限公司深圳航空邮件处理中心处理中心（经转）</p>
                                     <p>2016-12-03 02:20:00</p></li>
-                                <li>以上为最新跟踪信息<a href="wuliu.html">查看全部</a></li>
+                                <li>以上为最新跟踪信息<a href="/indexController/toWuliu">查看全部</a></li>
                             </ul>
                         </div>
                     </div>
@@ -97,7 +100,8 @@
                     <p class="fr">订单金额：<span>99.00</span>元</p></div>
                 <div class="shohou clearfix"><a href="#" class="fl"><img src="/static/img/g1.jpg"/></a>
                     <p class="fl"><a href="#">家用创意菜盘子圆盘 釉下彩复古</a><a href="#">¥99.00×1</a></p>
-                    <p class="fr"><a href="#">确认收货</a><a href="orderxq.html">订单详情</a></p></div>
+                    <p class="fr"><a href="#">确认收货</a><a href="/indexController/toOrderxq">订单详情
+                    </a></p></div>
             </div>
             <div class="dkuang deng"><p class="one">待支付</p>
                 <div class="word clearfix">
@@ -110,7 +114,8 @@
                     <p class="fr">订单金额：<span>99.00</span>元</p></div>
                 <div class="shohou clearfix"><a href="#" class="fl"><img src="/static/img/g1.jpg"/></a>
                     <p class="fl"><a href="#">家用创意菜盘子圆盘 釉下彩复古</a><a href="#">¥99.00×1</a></p>
-                    <p class="fr"><a href="#">立即支付</a><a href="orderxq.html">订单详情</a></p></div>
+                    <p class="fr"><a href="#">立即支付</a><a href="/indexController/toOrderxq">订单详情
+                    </a></p></div>
             </div>
             <div class="dkuang"><p class="one">已关闭</p>
                 <div class="word clearfix">
@@ -123,7 +128,8 @@
                     <p class="fr">订单金额：<span>99.00</span>元</p></div>
                 <div class="shohou clearfix"><a href="#" class="fl"><img src="/static/img/g1.jpg"/></a>
                     <p class="fl"><a href="#">家用创意菜盘子圆盘 釉下彩复古</a><a href="#">¥99.00×1</a></p>
-                    <p class="fr"><a href="#">交易失败</a><a href="orderxq.html">订单详情</a></p></div>
+                    <p class="fr"><a href="#">交易失败</a><a href="/indexController/toOrderxq">订单详情
+                    </a></p></div>
             </div>
             <div class="fenye clearfix"><a href="#"><img src="/static/img/zuo.jpg"/></a><a href="#">1</a><a href="#"><img
                     src="/static/img/you.jpg"/></a></div>

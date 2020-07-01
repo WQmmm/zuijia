@@ -17,7 +17,8 @@
 <jsp:include page="head.jsp"></jsp:include>
 <!------------------------------idea------------------------------>
 <div class="address mt">
-    <div class="wrapper clearfix"><a href="index.html" class="fl">首页</a><span>/</span><a href="wuliu.html" class="on">查看物流</a>
+    <div class="wrapper clearfix"><a href="/index.jsp" class="fl">首页</a><span>/
+    </span><a href="/indexController/toWuliu" class="on">查看物流</a>
     </div>
 </div><!------------------------------logistic------------------------------>
 <div class="logistic">

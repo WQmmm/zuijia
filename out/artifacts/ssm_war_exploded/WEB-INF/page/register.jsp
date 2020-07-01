@@ -15,7 +15,8 @@
 </head>
 <body><!-------------------reg-------------------------->
 <div class="reg">
-    <form action="/indexController/register" method="post"><h1><a href="index.html"><img src="/static/img/temp/logo.png"></a></h1>
+    <form action="/indexController/register" method="post"><h1><a
+            href="/index.jsp"><img src="/static/img/temp/logo.png"></a></h1>
         <p class="title">用户注册</p>
         <input type="hidden" name="id" value="0">
         <p><input type="text" name="username"  placeholder="请输入用户名"></p>

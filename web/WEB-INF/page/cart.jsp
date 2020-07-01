@@ -124,7 +124,7 @@
             <div class="price sAll">￥59.99</div>
             <div class="price"><a class="del" href="#2">删除</a></div>
         </div>
-        <div class="goOn">空空如也~<a href="index.html">去逛逛</a></div>
+        <div class="goOn">空空如也~<a href="/index.jsp">去逛逛</a></div>
         <div class="tr clearfix"><label class="fl"><input class="checkAll" type="checkbox"/><span></span></label>
             <p class="fl"><a href="#">全选</a><a href="#" class="del">删除</a></p>
             <p class="fr"><span>共<small id="sl">0</small>件商品</span><span>合计:&nbsp;<small id="all">￥0.00</small></span><a
@@ -134,43 +134,7 @@
 <div class="mask"></div>
 <div class="tipDel"><p>确定要删除该商品吗？</p>
     <p class="clearfix"><a class="fl cer" href="#">确定</a><a class="fr cancel" href="#">取消</a></p></div><!--返回顶部-->
-<div class="gotop"><a href="cart.html">
-    <dl>
-        <dt><img src="/static/img/gt1.png"/></dt>
-        <dd>去购<br/>物车</dd>
-    </dl>
-</a><a href="#" class="dh">
-    <dl>
-        <dt><img src="/static/img/gt2.png"/></dt>
-        <dd>联系<br/>客服</dd>
-    </dl>
-</a><a href="mygxin.html">
-    <dl>
-        <dt><img src="/static/img/gt3.png"/></dt>
-        <dd>个人<br/>中心</dd>
-    </dl>
-</a><a href="#" class="toptop" style="display: none;">
-    <dl>
-        <dt><img src="/static/img/gt4.png"/></dt>
-        <dd>返回<br/>顶部</dd>
-    </dl>
-</a>
-    <p>400-800-8200</p></div><!--footer-->
-<div class="footer">
-    <div class="top">
-        <div class="wrapper">
-            <div class="clearfix"><a href="#2" class="fl"><img src="/static/img/foot1.png"/></a><span class="fl">7天无理由退货</span>
-            </div>
-            <div class="clearfix"><a href="#2" class="fl"><img src="/static/img/foot2.png"/></a><span class="fl">15天免费换货</span>
-            </div>
-            <div class="clearfix"><a href="#2" class="fl"><img src="/static/img/foot3.png"/></a><span class="fl">满599包邮</span>
-            </div>
-            <div class="clearfix"><a href="#2" class="fl"><img src="/static/img/foot4.png"/></a><span class="fl">手机特色服务</span>
-            </div>
-        </div>
-    </div>
-    <p class="dibu">最家家居&copy;2013-2017公司版权所有 京ICP备080100-44备0000111000号<br/>
-        违法和不良信息举报电话：188-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p></div><!----------------mask------------------->
+<jsp:include page="footer.jsp"></jsp:include>
 <div class="mask"></div><!-------------------mask内容------------------->
 <div class="proDets"><img class="off" src="/static/img/temp/off.jpg"/>
     <div class="proCon clearfix">

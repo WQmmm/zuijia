@@ -18,8 +18,10 @@
 <jsp:include page="head.jsp"></jsp:include>
 </div><!-----------------address------------------------------->
 <div class="address">
-    <div class="wrapper clearfix"><a href="index.html">首页</a><span>/</span><a
-            href="flowerDer.html">装饰摆件</a><span>/</span><a href="proList.html">干花花艺</a><span>/</span><a href="#"
+    <div class="wrapper clearfix"><a href="/index.jsp">首页</a><span>/</span><a
+            href="/indexController/toFlowerDer">装饰摆件</a><span>/</span><a
+            href="/indexController/toProList">干花花艺
+    </a><span>/</span><a href="#"
                                                                                                         class="on">【最家】非洲菊仿真花干花</a>
     </div>
 </div><!-----------------------Detail------------------------------>

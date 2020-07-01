@@ -10,7 +10,9 @@
 <div class="head">
     <div class="wrapper clearfix">
         <div class="clearfix" id="top">
-            <h1 class="fl"><a href="index.html"><img src="/static/img/logo.png" /></a></h1>
+            <h1
+                    class="fl"><a href="/index.jsp"><img
+                    src="/static/img/logo.png" /></a></h1>
             <div class="fr clearfix" id="top1">
                 <c:if test="${username==null}">
                     <p class="fl"><a href="/indexController/toLogin" id="login">登录</a><a href="/indexController/toRegister" id="reg">注册</a></p>

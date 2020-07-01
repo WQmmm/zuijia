@@ -19,8 +19,9 @@
 <div class="banner"><a href="#"><img src="/static/img/temp/banner1.jpg"/></a></div>
 <!-----------------address------------------------------->
 <div class="address">
-    <div class="wrapper clearfix"><a href="index.html">首页</a><span>/</span><a
-            href="flowerDer.html">装饰摆件</a><span>/</span><a href="vase_proList.html" class="on">花瓶花器</a></div>
+    <div class="wrapper clearfix"><a href="/index.jsp">首页</a><span>/</span><a
+            href="/indexController/toFlowerDer">装饰摆件</a><span>/</span>
+        <a href="/indexController/toVase_proList" class="on">花瓶花器</a></div>
 </div><!-------------------current---------------------->
 <div class="current">
     <div class="wrapper clearfix"><h3 class="fl">花瓶花器</h3>
@@ -36,112 +37,112 @@
     </div>
 </div><!----------------proList------------------------->
 <ul class="proList wrapper clearfix">
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase01.jpg"></dt>
             <dd>【最家】创意现代简约白瓷干花花瓶摆件</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase02.jpg"></dt>
             <dd>【最家】现代简约白色条纹干花花瓶摆件</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase03.jpg"></dt>
             <dd>【最家】北欧现代陶瓷花瓶摆件</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase04.jpg"></dt>
             <dd>【最家】现代简约客厅茶几白色陶瓷花瓶摆件</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase05.jpg"></dt>
             <dd>【最家】仿木纹漆金裂纹台面花瓶系列套装</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase06.jpg"></dt>
             <dd>【最家】仿木竖条纹雅致台面花瓶</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase07.jpg"></dt>
             <dd>【最家】地中海风情落地大花瓶</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase08.jpg"></dt>
             <dd>【最家】东南亚复古做旧大花瓶</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase01.jpg"></dt>
             <dd>【最家】创意现代简约白瓷干花花瓶摆件</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase02.jpg"></dt>
             <dd>【最家】现代简约白色条纹干花花瓶摆件</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase03.jpg"></dt>
             <dd>【最家】北欧现代陶瓷花瓶摆件</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase04.jpg"></dt>
             <dd>【最家】现代简约客厅茶几白色陶瓷花瓶摆件</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase05.jpg"></dt>
             <dd>【最家】仿木纹漆金裂纹台面花瓶系列套装</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase06.jpg"></dt>
             <dd>【最家】仿木竖条纹雅致台面花瓶</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase07.jpg"></dt>
             <dd>【最家】地中海风情落地大花瓶</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/vase08.jpg"></dt>
             <dd>【最家】东南亚复古做旧大花瓶</dd>
@@ -178,7 +179,7 @@
                 加入购物车</p></a></div>
         </div>
     </div>
-    <a class="more" href="proDetail.html">查看更多细节</a></div><!--返回顶部-->
+    <a class="more" href="/indexController/toProDetail">查看更多细节</a></div><!--返回顶部-->
 <jsp:include page="footer.jsp"></jsp:include>
 <script src="/static/js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="/static/js/public.js" type="text/javascript" charset="utf-8"></script>

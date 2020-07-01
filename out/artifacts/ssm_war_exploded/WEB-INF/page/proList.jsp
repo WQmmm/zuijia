@@ -19,8 +19,10 @@
 <div class="banner"><a href="#"><img src="/static/img/temp/banner1.jpg"/></a></div>
 <!-----------------address------------------------------->
 <div class="address">
-    <div class="wrapper clearfix"><a href="index.html">首页</a><span>/</span><a
-            href="flowerDer.html">装饰摆件</a><span>/</span><a href="proList.html" class="on">干花花艺</a></div>
+    <div class="wrapper clearfix"><a href="/index.jsp">首页</a><span>/</span><a
+            href="/indexController/toFlowerDer">装饰摆件</a><span>/</span><a
+            href="/indexController/toProList"
+                                                           class="on">干花花艺</a></div>
 </div><!-------------------current---------------------->
 <div class="current">
     <div class="wrapper clearfix"><h3 class="fl">干花花艺</h3>
@@ -36,112 +38,112 @@
     </div>
 </div><!----------------proList------------------------->
 <ul class="proList wrapper clearfix">
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro01.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro02.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro03.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro04.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro05.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro06.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro07.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro08.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro01.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro02.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro03.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro04.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro05.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro06.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro07.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
             <dd>￥17.90</dd>
         </dl>
     </a></li>
-    <li><a href="proDetail.html">
+    <li><a href="/indexController/toProDetail">
         <dl>
             <dt><img src="/static/img/temp/pro08.jpg"></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -178,7 +180,7 @@
                 加入购物车</p></a></div>
         </div>
     </div>
-    <a class="more" href="proDetail.html">查看更多细节</a></div><!--返回顶部-->
+    <a class="more" href="/indexController/toProDetail">查看更多细节</a></div><!--返回顶部-->
 <jsp:include page="footer.jsp"></jsp:include>
 <script src="/static/js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="/static/js/public.js" type="text/javascript" charset="utf-8"></script>

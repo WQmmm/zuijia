@@ -53,7 +53,9 @@
             </div>
         </div>
         <div class="orderR fr">
-            <div class="msg"><h3>订单内容<a href="cart.html" class="fr">返回购物车</a></h3><!--------ul---------------->
+            <div class="msg"><h3>订单内容
+                <a href="/indexController/toCart" class="fr">返回购物车</a></h3><!--------ul
+                ---------------->
                 <ul class="clearfix">
                     <li class="fl"><img src="/static/img/temp/order01.jpg"></li>
                     <li class="fl"><p>创意现代简约干花花瓶摆件</p>

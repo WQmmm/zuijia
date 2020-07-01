@@ -14,11 +14,14 @@
     <link rel="stylesheet" type="text/css" href="/static/css/mygxin.css"/>
 </head>
 <body><!------------------------------head------------------------------>
-<jsp:include page="head.jsp">
+<jsp:include page="head.jsp"></jsp:include>
     <!------------------------------idea ------------------------------>
 <div class="address mt">
-    <div class="wrapper clearfix"><a href="index.html" class="fl">首页</a><span>/</span><a
-            href="mygxin.html">个人中心</a><span>/</span><a href="address.html" class="on">地址管理</a></div>
+    <div class="wrapper clearfix"><a href="/index.jsp" class="fl">首页</a><span>/
+    </span><a
+            href="/indexController/toMygxin">个人中心</a><span>/</span><a
+            href="/indexController/toAddress" class="on">
+        地址管理</a></div>
 </div><!------------------------------Bott------------------------------>
 <div class="Bott">
     <div class="wrapper clearfix">
@@ -27,19 +30,19 @@
                 <p class="clearfix"><span class="fl">[羊羊羊]</span><span class="fr">[退出登录]</span></p></h3>
             <div><h4>我的交易</h4>
                 <ul>
-                    <li><a href="cart.html">我的购物车</a></li>
-                    <li><a href="myorderq.html">我的订单</a></li>
-                    <li><a href="myprod.html">评价晒单</a></li>
+                    <li><a href="/indexController/toCart">我的购物车</a></li>
+                    <li><a href="/indexController/toMyorderq">我的订单</a></li>
+                    <li><a href="/indexController/toMyprod">评价晒单</a></li>
                 </ul>
                 <h4>个人中心</h4>
                 <ul>
-                    <li><a href="mygxin.html">我的中心</a></li>
-                    <li class="on"><a href="address.html">地址管理</a></li>
+                    <li><a href="/indexController/toMygxiny">我的中心</a></li>
+                    <li class="on"><a href="/indexController/toAddress">地址管理</a></li>
                 </ul>
                 <h4>账户管理</h4>
                 <ul>
-                    <li><a href="mygrxx.html">个人信息</a></li>
-                    <li><a href="remima.html">修改密码</a></li>
+                    <li><a href="/indexController/toMygrxx">个人信息</a></li>
+                    <li><a href="/indexController/toRemima">修改密码</a></li>
                 </ul>
             </div>
         </div>

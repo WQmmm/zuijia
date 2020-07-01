@@ -22,7 +22,8 @@
 <div class="head">
     <div class="wrapper clearfix">
         <div class="clearfix" id="top">
-            <h1 class="fl"><a href="index.html"><img src="/static/img/logo.png" /></a></h1>
+            <h1 class="fl"><a href="/index.jsp"><img src="/static/img/logo.png"
+            /></a></h1>
             <div class="fr clearfix" id="top1">
                 <c:if test="${username==null}">
                     <p class="fl"><a href="/indexController/toLogin" id="login">登录</a><a href="/indexController/toRegister" id="reg">注册</a></p>
@@ -103,7 +104,8 @@
 </div>
 <!------------------------------thImg------------------------------>
 <div class="thImg">
-    <div class="clearfix"><a href="vase_proList.html"><img src="/static/img/i1.jpg" /></a><a href="proList.html"><img
+    <div class="clearfix"><a href="/indexController/toVase_proList"><img src="/static/img/i1.jpg" /></a><a
+            href="/indexController/toProList"><img
             src="/static/img/i2.jpg" /></a><a href="#2"><img src="/static/img/i3.jpg" /></a></div>
 </div>
 <!------------------------------news------------------------------>
@@ -274,7 +276,7 @@
 </div>
 <!-------------------login-------------------------->
 <!--footer-->
-<div class="footer">
+    <div class="footer">
     <div class="top">
         <div class="wrapper">
             <div class="clearfix"><a href="#2" class="fl"><img src="/static/img/foot1.png" /></a><span
@@ -293,7 +295,7 @@
     </div>
     <p class="dibu">最家家居&copy;2013-2017公司版权所有 京ICP备080100-44备0000111000号<br />
         违法和不良信息举报电话：400-800-8200，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
-</div>
+    </div>
 <script src="/static/js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="/static/js/public.js" type="text/javascript" charset="utf-8"></script>
 <script src="/static/js/nav.js" type="text/javascript" charset="utf-8"></script>
