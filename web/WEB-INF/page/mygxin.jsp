@@ -16,7 +16,7 @@
 <body><!------------------------------head------------------------------>
 </div><!------------------------------idea------------------------------>
 <div class="address " id="add">
-    <div class="wrapper clearfix"><a href="/index.jsp" class="fl">首页</a><span>/
+    <div class="wrapper clearfix"><a href="/homeController/toIndex" class="fl">首页</a><span>/
     </span><a href="/indexController/toMygxin" class="on">个人中心</a>
     </div>
 </div><!------------------------------Bott------------------------------>
@@ -24,7 +24,8 @@
     <div class="wrapper clearfix">
         <div class="zuo fl">
             <h3><a href="#"><img src="/static/img/tx.png"/></a>
-                <p class="clearfix"><span class="fl">[羊羊羊]</span><span class="fr">[退出登录]</span></p></h3>
+                <p class="clearfix"><span class="fl">${username}</span>
+                    <span class="fr"><a href="/indexController/logout">[退出登录]</a></span></p></h3>
             <div><h4>我的交易</h4>
                 <ul>
                     <li><a href="/indexController/toCart">我的购物车</a></li>
@@ -47,7 +48,8 @@
             <div class="tx clearfix">
                 <div class="fl clearfix"><a href="#" class="fl"><img src="/static/img/tx.png"/></a>
                     <p
-                            class="fl"><span>六六六</span><a href="/indexController/toMygrxx">修改个人信息>
+                            class="fl"><span>${username}</span><a
+                            href="/indexController/toMygrxx">修改个人信息>
                     </a></p></div>
                 <div class="fr">绑定邮箱：12****4@**.com</div>
             </div>

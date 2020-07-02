@@ -12,7 +12,7 @@
 <head lang="en">
     <meta charset="utf-8" />
     <title>最家</title>
-    <link rel="stylesheet" type="text/css" href="static/css/public.css" />
+    <link rel="stylesheet" type="text/css" href="../../static/css/public.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/index.css" />
     <link rel="shortcut icon" type="" href="/static/img/icon.ico">
 </head>
@@ -22,7 +22,7 @@
 <div class="head">
     <div class="wrapper clearfix">
         <div class="clearfix" id="top">
-            <h1 class="fl"><a href="/index.jsp"><img src="/static/img/logo.png"
+            <h1 class="fl"><a href="/homeController/toIndex"><img src="/static/img/logo.png"
             /></a></h1>
             <div class="fr clearfix" id="top1">
                 <c:if test="${username==null}">
@@ -40,7 +40,7 @@
             </div>
         </div>
         <ul class="clearfix" id="bott">
-            <li><a href="/index.jsp">首页</a></li>
+            <li><a href="/homeController/toIndex">首页</a></li>
             <li><a href="#">所有商品</a>
                 <div class="sList">
                     <div class="wrapper  clearfix"><a href="/indexController/toPaint">
@@ -94,10 +94,10 @@
     <div id="home_slider" class="flexslider">
         <ul class="slides">
             <li>
-                <div class="slide"><img src="/static/img/banner2.jpg" /></div>
+                <div class="slide"><img src="${data[0].picture_path}" /></div>
             </li>
             <li>
-                <div class="slide"><img src="/static/img/banner1.jpg" /></div>
+                <div class="slide"><img src="${data[1].picture_path}" /></div>
             </li>
         </ul>
     </div>

@@ -16,7 +16,7 @@
 </head>
 <body><!----------------------------------------order------------------>
 <div class="order cart"><!-----------------logo------------------->
-    <div class="logo"><h1 class="wrapper clearfix"><a href="/index.jsp"><img
+    <div class="logo"><h1 class="wrapper clearfix"><a href="/homeController/toIndex"><img
             class="fl" src="/static/img/temp/logo.png"></a>
     </h1></div>
     <div class="forCon"><p>安全设置-找回密码</p>

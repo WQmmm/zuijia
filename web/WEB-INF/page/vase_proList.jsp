@@ -19,7 +19,7 @@
 <div class="banner"><a href="#"><img src="/static/img/temp/banner1.jpg"/></a></div>
 <!-----------------address------------------------------->
 <div class="address">
-    <div class="wrapper clearfix"><a href="/index.jsp">首页</a><span>/</span><a
+    <div class="wrapper clearfix"><a href="/homeController/toIndex">首页</a><span>/</span><a
             href="/indexController/toFlowerDer">装饰摆件</a><span>/</span>
         <a href="/indexController/toVase_proList" class="on">花瓶花器</a></div>
 </div><!-------------------current---------------------->

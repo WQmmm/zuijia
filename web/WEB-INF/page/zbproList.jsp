@@ -19,7 +19,7 @@
 <div class="banner"><a href="#"><img src="/static/img/temp/zbBanner.jpg"/></a></div>
 <!-----------------address------------------------------->
 <div class="address">
-    <div class="wrapper clearfix"><a href="/index.jsp">首页</a><span>/</span><a
+    <div class="wrapper clearfix"><a href="/homeController/toIndex">首页</a><span>/</span><a
             href="/indexController/toDecoration">布艺软饰</a><span>/</span>
         <a href="/indexController/toZbproList" class="on">桌布</a></div>
 </div><!-------------------current---------------------->

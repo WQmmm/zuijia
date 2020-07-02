@@ -17,7 +17,7 @@
 <jsp:include page="head.jsp"></jsp:include>
 <!------------------------------idea------------------------------>
 <div class="address mt">
-    <div class="wrapper clearfix"><a href="/index.jsp" class="fl">首页</a><span>/
+    <div class="wrapper clearfix"><a href="/homeController/toIndex" class="fl">首页</a><span>/
     </span><a href="/indexController/toMygxin" class="on">个人中心</a><span>/</span><a
             href="/indexController/toMyprod" class="on">待评价商品</a></div>
 </div><!------------------------------Bott------------------------------>

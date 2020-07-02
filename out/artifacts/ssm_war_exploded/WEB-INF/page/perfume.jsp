@@ -19,7 +19,7 @@
 <div class="banner"><a href="#"><img src="/static/img/temp/perfume_Banner.jpg"/></a></div>
 <!-----------------address------------------------------->
 <div class="address">
-    <div class="wrapper clearfix"><a href="/index.jsp">首页</a><span>/</span><a
+    <div class="wrapper clearfix"><a href="/homeController/toIndex">首页</a><span>/</span><a
             href="/indexController/toPerfume" class="on">蜡艺香薰</a>
     </div>
 </div><!-----------------paintCon------------------------------->

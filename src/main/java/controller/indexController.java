@@ -33,8 +33,8 @@ public class indexController {
                         HttpServletRequest httpServletRequest, HttpServletResponse response) throws Exception {
         if (indexService.login(username, password) > 0){
             HttpSession session = httpServletRequest.getSession();
-            session.setAttribute("username", username);
-            return "redirect:/index.jsp";
+            session.setAttribute("username", username);    //设置用户名
+            return "redirect:/homeController/toIndex";
         }else {
             return "login";
         }
@@ -51,7 +51,7 @@ public class indexController {
         if(indexService.register(user) > 0){
             return "login";
         }else {
-            return "redirect:/toRegister";
+            return "redirect:/indexController/toRegister";
         }
     }
 
@@ -60,7 +60,7 @@ public class indexController {
     public String logout(HttpServletRequest request){
         HttpSession session = request.getSession();
         session.setAttribute("username", null);
-        return "redirect:/index.jsp";
+        return "redirect:/homeController/toIndex";
     }
 
 //    跳转到个人中心

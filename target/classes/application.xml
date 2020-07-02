@@ -14,6 +14,8 @@
     <!--注解驱动，以使得访问路径与方法的匹配可以通过注解配置-->
     <mvc:annotation-driven/>
 
+    <mvc:view-controller path="/" view-name="index"></mvc:view-controller>
+    
     <!-- 将spring-mybatis.xml一起交给spring容器管理-->
     <import resource="classpath:mybatis/spring-mybatis.xml"></import>
     <!--视图解析器-->
@@ -23,13 +25,23 @@
     </bean>
 
     <!--配置MVC拦截器-->
+    <!-- 进入index.jsp页面前, 先去后台查找数据 -->
     <mvc:interceptors>
         <mvc:interceptor>
-            <mvc:mapping path="/**"/>
+            <mvc:mapping path="/"/>
+            <bean class="interceptors.IndexInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
+    <mvc:interceptors>
+        <!-- 登录拦截 -->
+        <mvc:interceptor>
+            <mvc:mapping path="/indexController/*"/>
             <mvc:exclude-mapping path="/indexController/toLogin"/>
             <mvc:exclude-mapping path="/indexController/login"/>
             <mvc:exclude-mapping path="/indexController/toRegister"/>
             <mvc:exclude-mapping path="/indexController/register"/>
+            <mvc:exclude-mapping path="/homeController/selectData"/>
+            <mvc:exclude-mapping path="/homeController/toIndex"/>
             <bean class="interceptors.loginInterceptor"></bean>
         </mvc:interceptor>
     </mvc:interceptors>

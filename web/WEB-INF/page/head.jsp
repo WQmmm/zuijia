@@ -11,7 +11,7 @@
     <div class="wrapper clearfix">
         <div class="clearfix" id="top">
             <h1
-                    class="fl"><a href="/index.jsp"><img
+                    class="fl"><a href="/homeController/toIndex"><img
                     src="/static/img/logo.png" /></a></h1>
             <div class="fr clearfix" id="top1">
                 <c:if test="${username==null}">
@@ -29,7 +29,7 @@
             </div>
         </div>
         <ul class="clearfix" id="bott">
-            <li><a href="/index.jsp">首页</a></li>
+            <li><a href="/homeController/toIndex">首页</a></li>
             <li><a href="#">所有商品</a>
                 <div class="sList">
                     <div class="wrapper  clearfix"><a href="/indexController/toPaint">
