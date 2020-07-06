@@ -6,7 +6,6 @@ import pojo.User;
 
 import java.util.List;
 
-@Service
 public interface UserMapper {
     List  selectAll();
     int login(@Param("username") String username, @Param("password") String password);

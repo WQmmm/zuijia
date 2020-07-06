@@ -19,8 +19,36 @@ public class PictureServiceImpl implements pictureService {
     }
 
     @Override
+    public List selectByType(int picture_type) {
+       return pictureMapper.selectByType(picture_type);
+    }
+
+    @Override
+    public int deleteById(int id) {
+        int row = pictureMapper.deleteById(id);
+        return row;
+    }
+
+    @Override
+    public int updateById(Picture picture) {
+        int row = pictureMapper.updateById(picture);
+        return row;
+    }
+
+    @Override
     public int insert(Picture picture) {
         int count = pictureMapper.insert(picture);
+        return count;
+    }
+
+    @Override
+    public List selectGoodsPictureByType(int type) {
+        return pictureMapper.selectGoodsPictureByType(type);
+    }
+
+    @Override
+    public int batchInsert(List list) {
+        int count = pictureMapper.batchInsert(list);
         return count;
     }
 }

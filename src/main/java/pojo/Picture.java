@@ -13,6 +13,18 @@ public class Picture  {
     private Date create_date;
     private int picture_order;
 
+    public Picture(){
+
+    }
+
+    public Picture(String picture_name, int picture_type, String picture_path, Date create_date, int picture_order) {
+        this.picture_name = picture_name;
+        this.picture_type = picture_type;
+        this.picture_path = picture_path;
+        this.create_date = create_date;
+        this.picture_order = picture_order;
+    }
+
     public int getId() {
         return id;
     }
